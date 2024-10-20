@@ -1,0 +1,89 @@
+.Product_List_Container {
+    max-width: 1580px;
+    margin: auto;
+}
+
+.Product_List_Container .Heading h1 {
+    margin-top: 0rem;
+}
+
+.Product_List_Container .Heading h1 span {
+    color: #235BDB;
+}
+
+.Product_List_Container .Product_Card_Container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin: auto;
+    gap: 1rem;
+}
+
+.Product_List_Container .Product_Card_Container .Product_Card_Wrapper {
+    max-width: 296px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 6px;
+}
+
+.Product_List_Container .Product_Card_Container .Product_Card_Wrapper .Img_Wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1rem;
+}
+
+.Product_List_Container .Product_Card_Container .Product_Card_Wrapper .Details_Wrapper {
+    padding: 1rem;
+}
+
+.Product_List_Container .Product_Card_Container .Product_Card_Wrapper .Details_Wrapper .Badge_text {
+    background: #21A67A;
+    padding: 6px 16px;
+    color: #ffff;
+    font-weight: 500;
+    border-radius: 8px;
+}
+
+.Product_List_Container .Product_Card_Container .Product_Card_Wrapper .Details_Wrapper .Price_Wrapper {
+    color: #3a3d41;
+}
+
+.Product_List_Container .Product_Card_Container .Product_Card_Wrapper .Details_Wrapper .Price_Wrapper .Bid_Wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1.8rem;
+}
+
+.Product_List_Container .Product_Card_Container .Product_Card_Wrapper .Details_Wrapper .Btn {
+    margin-top: 1.5rem;
+    display: flex;
+    align-items: center;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 8px;
+    width: 100%;
+    height: 42px;
+    justify-content: center;
+    gap: 4px;
+    color: #ffff;
+    background: linear-gradient(79.69deg, #DB2721 -0.64%, #5AD7FE 107.84%);
+    cursor: pointer;
+}
+
+.Product_List_Container .More_Btn {
+    margin: 2.5rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Product_List_Container .More_Btn button {
+    color: #ffff;
+    background: linear-gradient(79.69deg, #1D4ED8 -0.64%, #5AD7FE 107.84%);
+    border: none;
+    width: 140px;
+    height: 48px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+}

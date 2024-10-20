@@ -1,0 +1,19 @@
+li {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    padding-bottom: 20px;
+}
+
+button {
+    background: linear-gradient(79.69deg, #1D4ED8 -0.64%, #5AD7FE 107.84%);
+    border: none;
+    border-radius: 4px;
+    width: 265px;
+    padding: 11px 0px;
+    color: white;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

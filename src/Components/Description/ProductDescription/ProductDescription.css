@@ -1,0 +1,24 @@
+h5 {
+    margin: 0;
+    font-size: 16px ;
+    color: #191D23;
+    font-weight: 600;
+    padding-bottom: 24px;
+}
+
+.productdescription_container {
+    max-width: 987px;
+}
+
+.detailed_para {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 24px;
+}
+
+.review_header {
+    display: flex;
+}

@@ -1,0 +1,72 @@
+.Header_Container {
+    background: #FFE5F1;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+}
+
+.Header_Container .Header_Wrapper {
+    display: flex;
+    padding: .4rem 8rem;
+    justify-content: space-between;
+}
+
+.Header_Container .Header_Wrapper .Header_Left {
+    display: inline-flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+.Header_Container .Header_Right {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+.Header_Container .Header_Right .Heading h2 {
+    font-size: 30px;
+}
+
+.Header_Container .Nav_Section nav {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.Header_Container .Nav_Section nav span {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+}
+
+.Header_Container .Nav_Section nav .Translate {
+    display: flex;
+    gap: .4rem;
+    align-items: center;
+}
+
+.Header_Container .Btn_Section {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+.Header_Container .Btn_Section .Login_Btn {
+    background: transparent;
+    border: none;
+    font-weight: bold;
+    color: #1D4ED8;
+    font-size: 16px;
+}
+
+.Header_Container .Btn_Section .Started_Btn {
+    color: #ffff;
+    background: linear-gradient(79.69deg, #1D4ED8 -0.64%, #5AD7FE 107.84%);
+    border: none;
+    width: 120px;
+    height: 48px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+}
